@@ -1,0 +1,6 @@
+Credentials cache: API:29606
+        Principal: clcreuso@LE-101.FR
+
+  Issued                Expires               Principal
+Sep  5 16:38:59 2017  Sep  6 02:38:58 2017  krbtgt/LE-101.FR@LE-101.FR
+Sep  5 16:39:00 2017  Sep  6 02:38:58 2017  ldap/ldap-master.le-101.fr@LE-101.FR

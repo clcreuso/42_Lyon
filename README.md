@@ -5,6 +5,7 @@ Here are my projects completed at 42 Lyon. These projects made me suffer so much
 Each folder contains a specific project, cleaned of its original git history to form this monorepo of my journey.
 
 ## 🛠️ Project List
+- **[piscine-c](./piscine-c)**: The intense one-month introduction to C programming.
 
 - **[fill-it](./fill-it)**: An algorithm to find the smallest square for a set of Tetriminos.
 - **[libft](./libft)**: My own C library, recreating standard functions from the libc.

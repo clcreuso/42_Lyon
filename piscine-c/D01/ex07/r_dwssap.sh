@@ -1,0 +1,1 @@
+cat -e /etc/passwd | sed '/^#/d' | sed -n 'n;p'  | cut -d: -f1 | rev | sort -r | head -${FT_LINE2} | tail -$(($FT_LINE2 - $FT_LINE1 + 1)) | perl -pe 's/\n/, /' | sed 's/, $/./'
