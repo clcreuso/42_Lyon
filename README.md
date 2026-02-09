@@ -25,4 +25,4 @@ Each folder contains a specific project, cleaned of its original git history to 
 - **[filler](./filler)**: Creating an AI player for a board game.
 
 ---
-*Created with ❤️ by Clement Creusot*
+*Created with ❤️ and 🩸 by Clement Creusot*
