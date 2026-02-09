@@ -1,17 +1,16 @@
-# Lem_in pathfinding project
+# lem-in
 
-Objectives :
+An ant farm simulator using max-flow graph algorithms.
 
-* Parcours de graphe 
-* Algorithmes en profondeur 
+## Description
+Lem-in finds the quickest way to move `n` ants across an ant farm (graph) from start to end. It implements graph traversal and flow optimization (Edmonds-Karp or similar) to handle multiple paths and avoid collisions.
 
-## Getting started
-
-To get started with the app:
-
+## Usage
+Compile the project:
+```bash
+make
 ```
-git clone https://github.com/Phelim12/Le-101.Lem_in.git
-cd Le-101.Lem_in
-git submodule init Rendu/Libft
-git submodule update Rendu/Libft
+Run it with a map:
+```bash
+./lem-in < [map_file]
 ```

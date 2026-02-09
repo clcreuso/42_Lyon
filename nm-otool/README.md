@@ -1,33 +1,17 @@
-# Recoding nm and otool binaries
+# nm-otool
 
-Project make at school 42Lyon.
+Binary analysis tools for Mach-O files.
 
-### Installing for MAC OSX
+## Description
+Recoding the `nm` and `otool` system commands. `nm` lists symbols from object files, and `otool` displays specified parts of object files or libraries (like the `__text` section). It handles 32-bit, 64-bit, and fat binaries.
 
-Just need git (normaly you have it ^^)
-
-```
-git clone https://github.com/clcreuso/Nm-otool.git
-cd Nm-otool/Rendu
+## Usage
+Compile the tools:
+```bash
 make
 ```
-
-Use *ft_nm* for *nm* command.
-Use *ft_otool* for *otool -t* command.
-
-## Running the tests
-
-The test print diff. If the output of ft_nm have a diff than nm output. 
-
+Run them:
+```bash
+./ft_nm [binary]
+./ft_otool [binary]
 ```
-sh Scripts/diff_nm.sh path/of/binary
-sh Scripts/diff_otool.sh path/of/binary
-```
-
-## Authors
-
-* **Clément CREUSOT** - *Initial work* - [Clcreuso](https://github.com/clcreuso)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

@@ -1,32 +1,17 @@
-# Recoding malloc library
+# malloc
 
-Project make at school 42Lyon.  
-In this library you can find the functions:
-- Malloc
-- Realloc
-- Calloc
-- Free
+A custom dynamic memory management library.
 
-### Installing for MAC OSX
+## Description
+Implementation of `malloc`, `free`, and `realloc` functions. It uses system calls like `mmap` to allocate large memory regions and manages them efficiently using metadata and free lists to minimize fragmentation.
 
-```
-git clone https://github.com/clcreuso/Malloc.git
-cd Malloc/Rendu
+## Usage
+Compile the dynamic library:
+```bash
 make
 ```
-
-## Launch binary with this library
-
-Use *run.sh* script for make a dynamic injection of this lib.
-
+Use it by preloading it:
+```bash
+export LD_PRELOAD=$PWD/libft_malloc.so
+ls
 ```
-./run.sh path/of/binary
-```
-
-## Authors
-
-* **Clément CREUSOT** - *Initial work* - [Clcreuso](https://github.com/clcreuso)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
