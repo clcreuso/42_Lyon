@@ -1,0 +1,6 @@
+.vscode
+*.o
+*.a
+
+Rendu/ft_nm
+Rendu/ft_otool

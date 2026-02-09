@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/*
+*.py[cod]
+*$py.class
+
+Rendu/__pycache__/*
+Rendu/*.py[cod]
+Rendu/*$py.class
+
+Rendu/Class/__pycache__/*
+Rendu/Class/*.py[cod]
+Rendu/Class/*$py.class
+
+Rendu/Test/__pycache__/*
+Rendu/Test/*.py[cod]
+Rendu/Test/*$py.class
+
+.vscode/
+Rendu/.vscode/
